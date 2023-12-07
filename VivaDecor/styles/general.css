@@ -1,0 +1,78 @@
+/* reset css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    height: 72px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    padding-top: 45px;
+}
+
+.logo-name{
+    font-size: 24px;
+    color: #061800;
+    /* box-shadow: 2px 2px 2px gray; */
+    /* text-shadow: 2px 2px 4px gray; */
+}
+
+.logo-parts> a {
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.logo-parts> a:hover {
+    border-bottom: 2px solid blue;
+    
+}
+
+.logo-btn{
+    width: 176px;
+    border-style: groove;
+    height: 60px;
+    border-radius: 4px;
+    background-color:#1F1F1F;
+    ;
+    color: #FFFFFF;
+    ;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    padding: 0 100px;
+    /* height: 678px; */
+    
+}
+
+.left-hero-section {
+    /* border: 1px solid red; */
+    width: 60%;
+  padding-top: 80px;
+}
+
+.right-hero-section {
+    border: 1px solid blue;
+    width: 507px;   
+}
+
+.pro-btn{
+    width: 302px;
+    border-style: groove;
+    height: 86px;
+    border-radius: 4px;
+    background-color: #1F1F1F;
+    ;
+    color:#FFFFFF;
+    ;
+    cursor: pointer;
+}
