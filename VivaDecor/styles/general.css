@@ -24,6 +24,15 @@ header{
     /* text-shadow: 2px 2px 4px gray; */
 }
 
+
+main{
+    padding-top: 238px;
+    border: 1px solid black;
+    Width: 1518px;
+    height: 866px;
+
+    padding-left: 105px;
+}
 .logo-parts> a {
     color: black;
     font-size: 20px;
@@ -70,9 +79,7 @@ header{
     border-style: groove;
     height: 86px;
     border-radius: 4px;
-    background-color: #1F1F1F;
-    ;
+    background-color: #1F1F1F;;
     color:#FFFFFF;
-    ;
     cursor: pointer;
 }
