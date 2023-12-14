@@ -17,6 +17,9 @@ header{
     padding-bottom: 30px;
 }
 
+.body{
+    font-family: 'Inter', sans-serif;
+}
 .logo-name{
     width: 177px;
     height: 48px;
@@ -26,15 +29,17 @@ header{
 
 .logo-btn{
     background-color: black;
-    width: 169px;
-    height: 48px;
+    width: 176px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
    gap: 10px;
    color: white;
-   border-radius: 5px;
-   margin-top: px;
+   border-radius: 4px;
+   font-weight: 600;
+   font-size: ;
+
 
 }
 
@@ -43,7 +48,7 @@ header{
     font-family: Inter;
 font-size: 22px;
 font-weight: 600;
-line-height: 27px;
+line-height: ;
 letter-spacing: 0em;
 text-align: left;
 color: #545454;
@@ -59,7 +64,7 @@ color: #545454;
     display: flex;
     width: 302px;
     height: 86px;
-    top: 473px;
+    top: 140px;
     left: 8px;
     border-radius: 4px;
     justify-content: center;
@@ -67,6 +72,7 @@ color: #545454;
    gap: 10px;
    color: white;
    border-radius: 5px;
+   position: relative;
    
    /* margin-top: 30px; */
 
@@ -78,7 +84,7 @@ color: #545454;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 238px;
+    padding-top: 100px;
 }
 
 .logo-parts > a {
@@ -140,9 +146,9 @@ left: 8px;
 }
 
 .stats-section{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: -30px;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    /* padding-top: -30px; */
     display: flex;
     left: 50px;
     right: 50px;
@@ -160,33 +166,40 @@ border: 1px solid blue;
  .hiblue{
     width: 638px;
     height: 406px;
-    top: 460px;
-    left: 781px;
+    /* top: 460px; */
+    /* left: 781px; */
     border-radius: 4px;
+    position: relative;
+    left: 40px;
+    bottom: 150px;
+    
+    
  }
 .higreen{
-    width: 151px;
-    height: 151px;
-    top: 715px;
-    left: 1367px;
-    border-radius: 2px;
+    font-size: large;
+    position: relative;
+    bottom: 150px;
+    left: -30px;
+
 }
-.left-stas-section{ 
-    /* position: relative; */
-    /* display: flex; */
+.left-stats-section{ 
+    
+    display: flex;
+    justify-content: space-evenly;
     width: 699px;
 height: 116px;
-top: 688px;
-left: 8px;
+position: relative;
+top: 310px;
+/* left: 8px; */
 }
 .left-stats-section > div {
 
-    padding: 0 60px;
+    /* padding: 0 60px; */
 }
 .left-stats-section > div > h3 {
     font-size: 48px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     text-align: center;
     color: #545454;
 }
@@ -203,4 +216,25 @@ left: 8px;
     border-radius: 4px;
     border: 2px solid black;
 
+}
+.count-ss{
+    padding-top: 170px;
+}
+.services{
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+}
+.img{
+    display: flex;
+    /* align-items: flex-start; */
+    
+    position: relative;
+    top: -5px;
+
+}
+.img>h5{
+    font-size: large;
+    position: relative;
+    top: 20px;
 }
